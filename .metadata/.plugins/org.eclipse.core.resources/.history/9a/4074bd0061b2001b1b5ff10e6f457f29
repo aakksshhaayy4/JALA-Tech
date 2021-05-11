@@ -1,0 +1,19 @@
+//1. How to create a class, object, method and its signature
+
+package com.akshay.progs;
+
+// By using "class" keyword with accessibility modifier, we can create class
+public class Signature { 
+	//this is class
+	// inside { } (brackets) - class body
+	
+	public static void main(String[] args) {
+		// this is main method body
+		// by using accessibility modifier and return type we can create method
+		// and inside the method we can write our logic
+		
+		//By using class name we can create class's object
+		Signature s = new Signatures();
+	}
+
+}
