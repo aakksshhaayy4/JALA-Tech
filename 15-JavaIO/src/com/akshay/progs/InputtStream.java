@@ -17,8 +17,7 @@ public class InputtStream {
 			System.out.print(i+" .....");
 			System.out.println((char)i);
 		}
-		
-		
+	
 		
 	}
 
