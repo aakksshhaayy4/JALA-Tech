@@ -12,14 +12,14 @@ public class BufferedOutputtStream {
 	public static void main(String[] args) throws IOException {
 
 		FileOutputStream fis = new FileOutputStream("BufferedOutputStream.txt");
-		
+
 		BufferedOutputStream bos = new BufferedOutputStream(fis);
-		
+
 		bos.write(555);
 		bos.write('s');
 		bos.write('b');
 		bos.write(745);
-		
+
 		bos.flush();
 	}
 
